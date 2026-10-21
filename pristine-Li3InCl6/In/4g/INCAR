@@ -1,0 +1,19 @@
+# Li3InCl6
+ISMEAR = 0
+SIGMA = 0.1
+LREAL = A
+ENCUT = 300
+NBANDS = 2304
+LWAVE = F
+# SCH calculation
+ICORELEVEL = 2
+CH_LSPEC = .TRUE.
+CH_SIGMA = 3
+CLNT = 2
+CLN = 1
+CLL = 0
+CLZ = 1
+CH_NEDOS = 10000 # 5000 does not make any difference with this
+CH_AMPLIFICATION = 640
+
+
